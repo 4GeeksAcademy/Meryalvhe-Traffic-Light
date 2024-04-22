@@ -1,0 +1,68 @@
+.trafficLight {
+    background-color: black;
+    border-color: gray;
+    width: 200px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.redLight {
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+.yellowLight {
+    margin-top: 15px;
+    margin-left: 50px;
+    background-color:yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+.greenLight {
+    margin-top: 15px;
+    margin-left: 50px;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+.purpleLight {
+    margin-top: 15px;
+    margin-left: 50px;
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+.glow-red {
+    box-shadow: 0px 0px 9px 4px red;
+    animation: glow 0.8s linear infinite alternate;
+  }
+  .glow-yellow {
+    box-shadow: 0px 0px 9px 4px yellow;
+    animation: glow 0.8s linear infinite alternate;
+  }
+  .glow-green {
+    box-shadow: 0px 0px 9px 4px green;
+    animation: glow 0.8s linear infinite alternate;
+  }
+  .glow-purple {
+    box-shadow: 0px 0px 9px 4px purple;
+    animation: glow 0.8s linear infinite alternate;
+  }
+
+  @keyframes glow {
+    to {
+        box-shadow: 0px 0px 30px 20px ;
+    }
+  }
